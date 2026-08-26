@@ -1,0 +1,22 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+
+# Logs and build outputs
+*.log
+node_modules/
+.angular/
+dist/
+target/
+build/
